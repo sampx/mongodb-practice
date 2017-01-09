@@ -9,7 +9,7 @@ cursor = wordsColl.find({size:{$mod: [2,0]}});
 print("Words with even Lengths: ", cursor.count());
 cursor = wordsColl.find({letters:{$size: 12}});
 print("Words with 12 Distinct characters: ", cursor.count());
-cursor = wordsColl.find({$and: 
+cursor = wordsColl.find({$and:
                            [{first:{
                               $in: ['a', 'e', 'i', 'o', 'o']}},
                             {last:{

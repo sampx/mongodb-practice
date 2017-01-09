@@ -1,5 +1,5 @@
-var weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-print("\nWeek Days: ");
+var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+print('\nWeek Days: ');
 printjson(weekDays);
 var fullWeek = weekDays.slice(0);
 fullWeek.unshift("Sunday");

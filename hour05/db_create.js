@@ -1,3 +1,3 @@
-mongo = new Mongo("localhost");
-newDB = mongo.getDB("newDB");
+var mongo = new Mongo("localhost");
+var newDB = mongo.getDB("newDB");
 newDB.createCollection("newCollection");
